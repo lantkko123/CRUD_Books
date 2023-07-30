@@ -1,4 +1,15 @@
 # CRUD_Books
+# Backend Server:
+```
+npm i
+```
+```
+npm start
+```
+# Client Server:
+```
+npm start
+```
 
 <h2 style="color:red">Landing Books</h2>
 <img alt="landing Books" src="landingBooks.png" />
