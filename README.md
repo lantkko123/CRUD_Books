@@ -1,10 +1,9 @@
 # CRUD_Books
 
-<h1>CRUD Books</h1>
-<h2>Landing Books</h2>
+<h2 style="color:red">Landing Books</h2>
 <img alt="landing Books" src="landingBooks.png" />
 <br/>
-h2>Landing Books</h2>
+<h2 style="color:red">Landing Books</h2>
 <img alt="landing Books" src="addNewBooks.png" />
 
 <br/>
