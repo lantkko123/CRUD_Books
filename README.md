@@ -10,6 +10,11 @@ npm start
 ```
 npm start
 ```
+# Test API POSTMAN:
+```
+http://localhost:8800/books
+```
+
 
 <h2 style="color:red">Landing Books</h2>
 <img alt="landing Books" src="landingBooks.png" />
