@@ -26,13 +26,16 @@ http://localhost:8800/books
 <h4>Tech:</h4>
 <br/>
 
-<p>FE: REACTJS</p>
+<p><b>FE:</b> REACTJS</p>
 <br/>
-<p>BE: NodeJS - ExpressJS</p>
+
+<p><b>BE:</b> NodeJS - ExpressJS</p>
 <br/>
-<p>DB: MySQL</p>
+
+<p><b>DB:</b> MySQL</p>
 <br/>
-<p>API: PostMan</p>
+
+<p><b>API:</b> PostMan</p>
 
 
 
