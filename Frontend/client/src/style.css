@@ -1,0 +1,136 @@
+body{
+    background-image:url("asset/bg.jpg");
+    /* object-fit: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    z-index: -1;
+  }
+  .app {
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .app .addHome {
+    padding: 20px 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: .3s ease;
+  }
+  .app .addHome:hover {
+    background-color: rgb(11, 164, 164);
+  }
+  .app h1 {
+    margin-bottom: 50px;
+    font-size: 56px;
+    color: #2cbc63;
+    text-shadow: 0 2px 1px #79a06d, 
+    -1px 3px 1px #82ad75, 
+    -2px 5px 1px #8ebf80;
+  }
+  .app .books {
+    display: flex;
+    gap: 20px;
+  }
+  .app .books .book {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgba(0, 0, 0, .8);
+    padding-bottom: 10px;
+    border-radius: 60px 10px 60px 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  }
+  .app .books .book .zoom {
+    height: 300px;
+    overflow: hidden;
+  }
+  .app .books .book .zoom:hover img{
+    transform: scale(1.2);
+  }
+  
+  .app .books .book img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    transition: .8s ease;
+  }
+  .app .books .book p {
+    margin: 0;
+  }
+  .app .books .book span {
+    font-size: 18px;
+    font-weight: 600;
+    opacity: .8;
+  }
+  .app .books .book button {
+    padding: 5px 10px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .app .books .book .delete {
+    border: 1px solid #f5bfbf;
+    color: #f26464;
+    transition: .25s ease;
+    border-radius: 5px;
+    border-radius: 12px 5px 12px 5px;
+  }
+  .app .books .book .delete:hover {
+    background-color: #f26464;
+    color: #fff;
+  }
+  .app .books .book .update {
+    border: 1px solid #ccccf3;
+    color: #8b8bea;
+    transition: .25s ease;
+    border-radius: 5px;
+    border-radius: 12px 5px 12px 5px;
+  }
+  .app .books .book .update:hover {
+    background-color: #8b8bea;
+    color: #fff;
+  }
+  .app .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .app .form input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  .app .form textarea {
+    padding: 10px;
+  }
+  .app .form button {
+    border: none;
+    padding: 10px;
+    background-color: white;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  .btn-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    margin: 0 25px 5px 0;
+  }
